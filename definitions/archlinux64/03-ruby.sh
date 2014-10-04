@@ -1,0 +1,1 @@
+../archlinux32/03-ruby.sh

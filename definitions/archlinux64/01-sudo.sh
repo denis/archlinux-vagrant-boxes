@@ -1,0 +1,1 @@
+../archlinux32/01-sudo.sh

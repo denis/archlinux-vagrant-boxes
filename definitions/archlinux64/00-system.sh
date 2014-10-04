@@ -1,0 +1,1 @@
+../archlinux32/00-system.sh
