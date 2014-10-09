@@ -1,0 +1,1 @@
+../archlinux32/06-cleanup.sh

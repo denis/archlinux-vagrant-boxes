@@ -29,4 +29,7 @@ If you want to build them yourself you can:
 * openssh
 * sudo
 * virtualbox-guest-utils
+* cronie
+* vim-minimal
 * ruby
+* python2
