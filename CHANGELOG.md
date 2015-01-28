@@ -1,3 +1,7 @@
+## 1.1.1 (January 28, 2015)
+
+* Rebuild on Arch Linux 2015.01.01
+
 ## 1.1.0 (October 9, 2014)
 
 * Set default box memory size to 512 MB
