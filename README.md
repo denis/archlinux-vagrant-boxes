@@ -28,7 +28,8 @@ If you want to build them yourself you can:
 * grub
 * openssh
 * sudo
-* virtualbox-guest-utils
+* virtualbox-guest-utils-nox
+* virtualbox-guest-modules-arch
 * cronie
 * vim
 * ruby
