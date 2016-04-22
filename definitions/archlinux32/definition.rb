@@ -17,6 +17,7 @@ Veewee::Definition.declare({
   ],
   :ssh_user => "root",
   :ssh_password => root_password,
+  :ssh_login_timeout => 10_000,
   :shutdown_cmd => "shutdown -h now",
   :postinstall_files => [
     "00-system.sh",
