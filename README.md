@@ -32,5 +32,7 @@ If you want to build them yourself you can:
 * virtualbox-guest-modules-arch
 * cronie
 * vim
+* base-devel
 * ruby
 * python2
+* chef (via RubyGems)
