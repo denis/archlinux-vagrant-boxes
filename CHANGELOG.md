@@ -1,3 +1,10 @@
+## 1.2.0 (April 22, 2016)
+
+* Rebuild on Arch Linux 2016.04.01
+* Add `base-revel` package and `chef` gem
+* Replace `virtualbox-guest-utils` package with `virtualbox-guest-utils-nox` and `virtualbox-guest-modules-arch`
+* Replace `vim-minimal` package with `vim`
+
 ## 1.1.1 (January 28, 2015)
 
 * Rebuild on Arch Linux 2015.01.01
