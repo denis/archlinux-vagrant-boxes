@@ -30,6 +30,6 @@ If you want to build them yourself you can:
 * sudo
 * virtualbox-guest-utils
 * cronie
-* vim-minimal
+* vim
 * ruby
 * python2
