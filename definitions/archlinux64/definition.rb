@@ -2,9 +2,9 @@ root_password = "vagrant"
 
 Veewee::Definition.declare({
   :memory_size => 512,
-  :iso_file => "archlinux-2015.01.01-dual.iso",
-  :iso_src => "http://mirrors.kernel.org/archlinux/iso/2015.01.01/archlinux-2015.01.01-dual.iso",
-  :iso_md5 => "b1bb42e2c89096687509e0b7b1bc84c3",
+  :iso_file => "archlinux-2016.04.01-dual.iso",
+  :iso_src => "http://mirrors.kernel.org/archlinux/iso/2016.04.01/archlinux-2016.04.01-dual.iso",
+  :iso_md5 => "56fac9b3eefdf254a53e519dfcb05168",
   :os_type_id => "ArchLinux_64",
   :boot_wait => 5,
   :boot_cmd_sequence => [

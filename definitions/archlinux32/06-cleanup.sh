@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Set PermitRootLogin back to default value
+sed -i "s/^PermitRootLogin yes/#PermitRootLogin prohibit-password/g" /etc/ssh/sshd_config
+
 # Clean up pacman cache
 yes | pacman -Scc
 

@@ -35,9 +35,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # Install sshd
 pacman -S --noconfirm openssh
 
-# Keep SSH speedy even when host machine or the Vagrant machine is not connected to the internet.
-# This avoids a reverse DNS lookup on the connecting SSH client which can take many seconds.
-sed -i "s/^#UseDNS yes/UseDNS no/g" /etc/ssh/sshd_config
+# Allow root to login from a host machine with a password
+sed -i "s/^#PermitRootLogin prohibit-password/PermitRootLogin yes/g" /etc/ssh/sshd_config
 
 # Start sshd on boot
 systemctl enable sshd.service
